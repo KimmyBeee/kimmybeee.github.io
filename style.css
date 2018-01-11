@@ -18,7 +18,7 @@ body
 
 header 
 	{
-		margin-bottom: 10px;
+		
 		
 	}
 
@@ -28,18 +28,21 @@ nav
 
 	}
 
+#center 
+	{
+		width:1040px;
+	}
+
 section
 	{
-		width:58%;
+		width:55%;
 		float:left;
 		overflow:auto;
 		color: #777;
 		background-color: #ebebeb;
 		padding: 15px;
-		padding-bottom: 40px;
 		padding-top: 30px;
 		margin-bottom: 20px;
-		height:250px;
 		text-align: center;
 
 	}
@@ -48,9 +51,17 @@ article
 	{
 		color: #ebebeb;
 		background-color: #777;
-		padding: 25px;
+		padding-top: 15px;
+		padding-right: 15px;
+		padding-left: 15px;
+		padding-bottom: 0.5px;
 		margin-top: 30px;
 		
+	}
+
+#centerbox
+	{
+		height:300px;
 	}
 
 .inbox
@@ -67,22 +78,35 @@ header
 		margin-bottom: 10px;
 		
 	}
+
+#h
+	{
+		color: #777;
+		background-color: #ebebeb;
+		padding: 15px;
+		margin-top: 15px
+
+	}
+
 p
 	{
+		color: #777;
+		background-color: #ebebeb;
 		margin-top: 10px;
-		padding: 30px;
-		padding-bottom: 20px;
+		padding: 15px;
+		
 		
 	}
 
 aside
 	{
-		width: 35%;
-		height: 320px;	
+		width: 32.5%;
+		height: 198px;	
 		color: #777;
 		background-color: #ebebeb;
-		padding-right:20px;
+		padding:40px;
 		float:right;
+		text-align: center;
 		
 		
 	}
